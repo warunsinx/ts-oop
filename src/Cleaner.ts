@@ -1,6 +1,6 @@
-import { PaymentInterface } from "./PaymentInterface";
+import PaymentInterface from "./PaymentInterface";
 
-export class Cleaner implements PaymentInterface {
+export default class Cleaner implements PaymentInterface {
   #tripCount: number;
   #tripRate: number;
 

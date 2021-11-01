@@ -1,6 +1,6 @@
-import { Staff } from "./Staff";
+import Staff from "./Staff";
 
-export class Ceo extends Staff {
+export default class Ceo extends Staff {
   #expYear: number;
   #expRate: number;
 

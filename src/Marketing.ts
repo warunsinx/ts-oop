@@ -1,6 +1,6 @@
-import { Staff } from "./Staff";
+import Staff from "./Staff";
 
-export class Marketing extends Staff {
+export default class Marketing extends Staff {
   #extraLanguage: number;
   #extraLanguageRate: number;
 

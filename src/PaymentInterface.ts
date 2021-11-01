@@ -1,3 +1,3 @@
-export interface PaymentInterface {
+export default interface PaymentInterface {
   getPayment(): void;
 }

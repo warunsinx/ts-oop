@@ -1,6 +1,6 @@
-import { Staff } from "./Staff";
+import Staff from "./Staff";
 
-export class Developer extends Staff {
+export default class Developer extends Staff {
   #codingHour: number;
   #codingRate: number;
 

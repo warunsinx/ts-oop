@@ -1,6 +1,6 @@
-import { PaymentInterface } from "./PaymentInterface";
+import PaymentInterface from "./PaymentInterface";
 
-export class Driver implements PaymentInterface {
+export default class Driver implements PaymentInterface {
   #dayCount: number;
   #dayRate: number;
 

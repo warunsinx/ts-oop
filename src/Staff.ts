@@ -1,6 +1,6 @@
-import { PaymentInterface } from "./PaymentInterface";
+import PaymentInterface from "./PaymentInterface";
 
-export class Staff implements PaymentInterface {
+export default class Staff implements PaymentInterface {
   #name: string;
   #baseSalary: number;
   #overtimeHour: number;
